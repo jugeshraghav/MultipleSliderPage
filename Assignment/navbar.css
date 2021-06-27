@@ -1,0 +1,60 @@
+/*********************Navbar*************************************************************************************************/
+.navbar {
+    background-color: #f1f1f1;
+    border-color: #dddddd;
+    padding: 0px 180px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.navbar-logo {
+    width: 124px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+}
+
+.navbar-mid {
+    width: 1200px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.navbar-mid li,
+.navbar-right li {
+    float: left;
+    list-style: none;
+}
+
+.navbar-mid li a,
+.navbar-right li a {
+    text-decoration: none;
+    font-size: 16px;
+    margin: 15px;
+    color: #777;
+}
+
+.navbar-mid li a:hover {
+    color: black;
+}
+
+.navbar-right {
+    width: 350px;
+    float: right;
+}
+
+.navbar-right li {
+    font-weight: bold;
+}
+
+.navbar-right li a:hover {
+    color: black;
+}

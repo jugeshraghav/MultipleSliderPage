@@ -1,0 +1,23 @@
+/****Footer****/
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer ul {
+    margin: 0 0 10px;
+}
+
+.footer-links {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    color: #4942af;
+    text-decoration: underline;
+}

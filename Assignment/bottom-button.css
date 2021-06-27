@@ -1,0 +1,21 @@
+/***button ***/
+.button {
+    text-align: center;
+    margin-top: -44px;
+}
+
+.bottom-button {
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    color: white !important;
+    background-color: darkslategray;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
